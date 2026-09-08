@@ -1,0 +1,28 @@
+{
+  "name": "create-blank-mern",
+  "version": "1.0.1",
+  "description": "Create a blank MERN stack project with Express serving a Vite React app and hot reload",
+  "type": "module",
+  "bin": {
+    "create-blank-mern": "./bin/create-blank-mern.js"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "vite",
+    "template",
+    "starter"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/create-blank-mern.git"
+  }
+}
