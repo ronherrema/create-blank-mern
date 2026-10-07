@@ -1,6 +1,6 @@
 {
   "name": "create-blank-mern",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create a blank MERN stack project with Express serving a Vite React app and hot reload",
   "type": "module",
   "bin": {
