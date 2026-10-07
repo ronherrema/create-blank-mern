@@ -4,7 +4,7 @@
   "description": "Create a blank MERN stack project with Express serving a Vite React app and hot reload",
   "type": "module",
   "bin": {
-    "create-blank-mern": "./bin/create-blank-mern.js"
+    "create-blank-mern": "bin/create-blank-mern.js"
   },
   "files": [
     "bin",
@@ -22,7 +22,7 @@
   "author": "Ron Herrema",
   "license": "MIT",
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/ronherrema/create-blank-mern.git"
-}
+    "type": "git",
+    "url": "git+https://github.com/ronherrema/create-blank-mern.git"
+  }
 }
