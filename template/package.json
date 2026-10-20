@@ -4,14 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "node --watch --env-file-if-exists=.env server.js",
     "build": "vite build",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "cross-env NODE_ENV=production node --env-file-if-exists=.env server.js"
   },
   "dependencies": {
     "express": "^5.2.0",
     "mongoose": "^9.9.0",
-    "dotenv": "^16.4.0",
     "vite-express": "^0.22.0"
   },
   "devDependencies": {

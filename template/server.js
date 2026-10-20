@@ -1,10 +1,6 @@
 import express from 'express'
 import mongoose from 'mongoose'
-import dotenv from 'dotenv'
 import ViteExpress from 'vite-express'
-
-// load variables from .env file
-dotenv.config()
 
 const app = express()
 const PORT = process.env.PORT || 3000
